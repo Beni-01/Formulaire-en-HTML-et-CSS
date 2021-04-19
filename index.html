@@ -17,7 +17,7 @@
             <h2>General Information</h2>
             <div class='Select-group-title'>
                  
-                <select name="">
+                <select>
                     <option value="Position" selected  disabled="disabled" data-default>Title</option>
                     <option value="Title2" >Title2</option>
                     <option value="Title3">Title3</option>
@@ -27,12 +27,12 @@
             </div>
             <div class="input-flex">
                 <div class="inline-input-group-name">
-                <label class="rbs-only" for="">First Name</label>
-                <input type="text" placeholder="First Name">
+                <label class="rbs-only" for="Name">First Name</label>
+                <input type="text" placeholder="First Name" id='Name'>
                 </div>
 
                 <div class="inline-input-group-Last">
-                    <label class="rbs-only" for="">Last Name</label>
+                    <label class="rbs-only" for="LastName">Last Name</label>
                     <input type="text" placeholder="Last Name">
                 </div>
            </div>
@@ -48,19 +48,19 @@
                
             </div>
             <div>
-                <label class="rbs-only" for="">Company</label>
-                <input type="text" placeholder="Company">
+                <label class="rbs-only" for="company">Company</label>
+                <input type="text" placeholder="Company"  id='company'>
             </div>
             <div class="input-flex">
                 <div class="inline-input-group-area">
-                    <label class="rbs-only" for="">Business area</label>
-                    <input type="text" placeholder="Business area">
+                    <label class="rbs-only" for="business">Business area</label>
+                    <input type="text" placeholder="Business area" id='business'>
                 </div>
 
                 <div class='Select-group-employe'>
                     
                     <select name="">
-                        <option value="" selected disabled="disabled" >Employes</option>
+                        <option value="employes" selected disabled="disabled" >Employes</option>
                     </select>
                     <i class="fas fa-chevron-down fa-1g"></i>
                 </div> 
@@ -70,13 +70,13 @@
         <section class="right-form">
             <h2>Contact Details</h2>
             <p>
-                <label class="rbs-only" for="">Street + Nr</label>
-                <input type="text" placeholder="Street + Nr">
+                <label class="rbs-only" for="street">Street + Nr</label>
+                <input type="text" placeholder="Street + Nr" id='street'>
             </p>
 
             <p>
-                <label class="rbs-only" for="">Additionnal Information</label>
-                <input type="text" placeholder="Additionnal Information">
+                <label class="rbs-only" for="info">Additionnal Information</label>
+                <input type="text" placeholder="Additionnal Information" id='info'>
             </p>
             <div class="input-flex">
             <div class="inline-input-group-code">
@@ -85,7 +85,7 @@
 
             <div class="Select-group-place">
               
-                <select name="">
+                <select>
                     <option value="">Place</option>
                 </select>   
                 <i class="fas fa-chevron-down fa-1g"></i> 
@@ -107,19 +107,19 @@
 
                 <div class="inline-input-group-code">
                     <label class="rbs-only" for="Code+" class="rbs-only">code+</label>
-                    <input type="text" placeholder="Code+">
+                    <input type="text" placeholder="Code+" id='Code+'>
                 </div>
                 <div class="inline-input-group-number">
                     <label class="rbs-only"  for="Phone Number">Phone Number</label>
-                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Phone Number" id='Phone Number'>
                 </div>
 
             </div>
          
 
             <p>
-                <label for="" class="rbs-only">Your Email</label>
-                <input type="email" name="" id="" placeholder="Your Email">
+                <label for="mail" class="rbs-only">Your Email</label>
+                <input type="email" name="" id="mail" placeholder="Your Email">
             </p>
             
             <p class="radio">
@@ -128,7 +128,7 @@
                 <label for='radio'>I do accepte the <a href="#">Terms and Condition</a>  of your site</label>
             </p>
            
-            <div class="">
+            <div >
                 <button type="submit" class="btn btn-rounded btn-white" >Register Badge</button>
             </div>
 
