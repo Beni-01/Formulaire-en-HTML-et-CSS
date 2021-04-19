@@ -1,0 +1,174 @@
+body{
+background-image:linear-gradient(130deg,#7ec0ed,#9a89e5);
+padding: 0;
+height: 100vh;
+margin:0;
+}
+
+form{
+    display:flex;
+    justify-content:center;
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+   
+}
+
+div[class^="Select-"]{
+   position:relative;
+}
+div[class^="Select-"] i{
+position:absolute;
+bottom: 10px;
+right:0;
+}
+.left-form h2{
+    color: rgb(99, 171, 253);
+}
+select option[data-default] {
+    color: #888;
+  }
+
+.rbs-only{
+    display: none;
+}
+
+
+
+input:not([type="radio"]),select{
+    appearance:none; 
+    border:none;
+    border-bottom:1px solid silver;
+    background-color:transparent;
+    width:100%;
+    padding-bottom:10px;
+    margin-top:30px;
+    outline:none;
+}
+
+.left-form input::placeholder,.left-form select{
+    font-size:16px;
+    color: rgb(155, 148, 148);
+    opacity:1;
+
+  
+}
+
+.right-form input::placeholder, .right-form select{
+    font-size:16px;
+    color: white;
+    opacity:1;
+  
+}
+.left-form,.right-form{
+    width:30%;
+    padding:2%;
+    
+}
+
+.left-form{
+    border-radius:20px 0px 0px 20px;
+    background-color:white;
+}
+.right-form{
+    border-radius:0px 20px 20px 0px;
+    background-color:#6b50e4;
+    color:white;
+   
+}
+
+.fa-1g{
+    color: silver;
+}
+
+.input-flex{
+  display:flex; 
+  flex-direction:row; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inline-input-group-name{
+    flex-basis: 45%;
+}
+
+.inline-input-group-Last{
+    flex-basis: 45%;
+}
+
+.inline-input-group-area{
+    flex-basis: 55%;
+}
+.Select-group-employe{
+    flex-basis: 38%;
+   
+}
+
+.Select-group-place,.inline-input-group-number{
+    flex-basis: 60%;
+   
+}
+.inline-input-group-code{
+    flex-basis: 30%;
+ 
+}
+
+.btn{
+    appearance:none;
+    width:35%;
+    margin:5% 0px;
+    height:50px;
+    border:none;
+    color:black;
+    background-color:white;
+    font-size: 16px;
+    box-shadow:0px 0px 5px black;
+}
+.btn-rounded{
+    border-radius:100px;
+}
+
+label{
+    display: inline-block;
+    width:60%;
+   margin-left: 15px;
+    font-size:17px;
+    vertical-align: top;
+}
+
+#radio{  
+  display:none;
+}
+#radio+label{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    border:1px solid white;
+    border-radius: 10px;
+    padding:11px;
+    box-sizing: border-box;
+    position:relative;
+
+}
+.radio{
+  
+    margin-left: -3%;
+    margin-top:5%;
+   
+}
+#radio:checked + label>span{
+    position:absolute;
+    top:2px;
+    bottom:2px;
+    left:2px;
+    right:2px;
+    width:17px;
+    height:17px;
+    display:block; 
+    background-color:white;
+    border-radius: 10px;
+}
+a{
+    color: white;
+}
+

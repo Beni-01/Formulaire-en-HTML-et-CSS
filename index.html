@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de creation de compte</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+   
+    <form  enctype="multipart/form-data">
+        <h1 class="rbs-only">CREATION DE COMPTE</h1>
+        <section class="left-form">
+            <h2>General Information</h2>
+            <div class='Select-group-title'>
+                 
+                <select name="">
+                    <option value="Position" selected  disabled="disabled" data-default>Title</option>
+                    <option value="Title2" >Title2</option>
+                    <option value="Title3">Title3</option>
+                </select>
+                <i class="fas fa-chevron-down fa-1g"></i> 
+                <label class="rbs-only" >Title</label>
+            </div>
+            <div class="input-flex">
+                <div class="inline-input-group-name">
+                <label class="rbs-only" for="">First Name</label>
+                <input type="text" placeholder="First Name">
+                </div>
+
+                <div class="inline-input-group-Last">
+                    <label class="rbs-only" for="">Last Name</label>
+                    <input type="text" placeholder="Last Name">
+                </div>
+           </div>
+    
+              <div class='Select-group-position'> 
+                
+                <select name="" id="Position">
+                    <option value="Position"  selected disabled="disabled">Position </option>
+                    <option value="Position2" >Position2</option>
+                    <option value="Position3">Position3</option>                
+                </select>
+                <i class="fas fa-chevron-down fa-1g"></i>
+               
+            </div>
+            <div>
+                <label class="rbs-only" for="">Company</label>
+                <input type="text" placeholder="Company">
+            </div>
+            <div class="input-flex">
+                <div class="inline-input-group-area">
+                    <label class="rbs-only" for="">Business area</label>
+                    <input type="text" placeholder="Business area">
+                </div>
+
+                <div class='Select-group-employe'>
+                    
+                    <select name="">
+                        <option value="" selected disabled="disabled" >Employes</option>
+                    </select>
+                    <i class="fas fa-chevron-down fa-1g"></i>
+                </div> 
+          </div>
+        </section>
+
+        <section class="right-form">
+            <h2>Contact Details</h2>
+            <p>
+                <label class="rbs-only" for="">Street + Nr</label>
+                <input type="text" placeholder="Street + Nr">
+            </p>
+
+            <p>
+                <label class="rbs-only" for="">Additionnal Information</label>
+                <input type="text" placeholder="Additionnal Information">
+            </p>
+            <div class="input-flex">
+            <div class="inline-input-group-code">
+                <input type="text" placeholder="Zip Code">
+            </div>
+
+            <div class="Select-group-place">
+              
+                <select name="">
+                    <option value="">Place</option>
+                </select>   
+                <i class="fas fa-chevron-down fa-1g"></i> 
+            </div>
+
+            </div>
+            <div class='Select-group-country'>
+               
+                <select name="" id="Country">
+                    <option value="" data-default selected disabled>Country </option>
+                    <option value="" data-default >Country 2</option>
+                    <option value="" data-default >Country 3</option>
+                    <option value="" data-default >Country 4</option>
+                </select>
+                <i class="fas fa-chevron-down fa-1g"></i>
+                
+            </div>
+            <div class="input-flex">
+
+                <div class="inline-input-group-code">
+                    <label class="rbs-only" for="Code+" class="rbs-only">code+</label>
+                    <input type="text" placeholder="Code+">
+                </div>
+                <div class="inline-input-group-number">
+                    <label class="rbs-only"  for="Phone Number">Phone Number</label>
+                    <input type="text" placeholder="Phone Number">
+                </div>
+
+            </div>
+         
+
+            <p>
+                <label for="" class="rbs-only">Your Email</label>
+                <input type="email" name="" id="" placeholder="Your Email">
+            </p>
+            
+            <p class="radio">
+                <input type="radio" name="Terms" id="radio"></input>
+                <label for='radio'> <span></span> </label>
+                <label for='radio'>I do accepte the <a href="#">Terms and Condition</a>  of your site</label>
+            </p>
+           
+            <div class="">
+                <button type="submit" class="btn btn-rounded btn-white" >Register Badge</button>
+            </div>
+
+        </section>
+    </form>
+
+</body>
+</html>
